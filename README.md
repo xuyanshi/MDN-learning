@@ -1,2 +1,1 @@
-# frontend-learning
- Front-end Learning
+# Frontend Learning
