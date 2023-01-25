@@ -1,3 +1,5 @@
-p {
+p, li, h1 {
     color: darkorange;
+    width: 500px;
+    border: 1px solid black;
 }
