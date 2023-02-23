@@ -7,5 +7,9 @@ p, li {
 }
 
 li {
-    list-style-type: armenian;
+    list-style-type: decimal;
+}
+
+.item2 {
+    list-style-type: upper-roman;
 }
