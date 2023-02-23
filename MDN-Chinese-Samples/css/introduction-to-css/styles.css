@@ -2,12 +2,32 @@ h1 {
     color: red;
 }
 
+h1 + p {
+    font-size: 200%;
+}
+
 p, li {
     color: blue;
 }
 
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 li {
     list-style-type: decimal;
+}
+
+li em {
+    color: mediumvioletred;
 }
 
 .item2 {
