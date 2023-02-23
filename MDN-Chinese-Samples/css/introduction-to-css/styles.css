@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+}
+
+p, li {
+    color: blue;
+}
+
+li {
+    list-style-type: armenian;
+}
