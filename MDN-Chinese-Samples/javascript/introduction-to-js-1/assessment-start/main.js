@@ -22,11 +22,16 @@ function result() {
         let name = customName.value;
         xItem = name;
     }
+    newStory = newStory.replace('xItem', xItem);
+    newStory = newStory.replace('xItem', xItem);
+    newStory = newStory.replace('yItem', yItem);
+    newStory = newStory.replace('zItem', zItem);
 
     if (document.getElementById("american").checked) {
         let weight = Math.round(300);
         let temperature = Math.round(94);
-
+        newStory = newStory.replace('34 摄氏度', temperature + ' 华氏度');
+        newStory = newStory.replace('130 公斤', weight + ' 磅')
     }
 
     story.textContent = newStory;
