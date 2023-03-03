@@ -20,7 +20,7 @@ function result() {
     let zItem = randomValueFromArray(insertZ);
     if (customName.value !== '') {
         let name = customName.value;
-
+        xItem = name;
     }
 
     if (document.getElementById("american").checked) {
